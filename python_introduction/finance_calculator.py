@@ -17,4 +17,4 @@ else:
 if projected_savings == int(projected_savings):
     print (f"Projected savings after one year, with interest, is: ${int(projected_savings)}.")
 else:
-   print (f"Projected savings after one year, with interest, is: ${projected_savings}.")
+   print (f"Projected savings after one year, with interest, is: ${projected_savings}")
