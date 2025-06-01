@@ -24,21 +24,27 @@
 # Choose the operation (+, -, *, /): /
 # Cannot divide by zero.
 
+<<<<<<< HEAD
 num1 =int(input("Enter the first number: "))
 num2 =int(input("Enter the second number: "))
 operator = input("Choose the operation (+, -, *, /): ")
+=======
+num1 = int(input("Enter the first number: ")) 
+num2 = int(input("Enter the second number: ")) 
+operation = input("Choose the operation (+, -, *, /): ")  
+>>>>>>> e08eb83fddec7769375908a9d32e0796c87e9ceb
 
-match operator:
-    case "+":
-        print(f"The result is { num1 + num2}.")
-    case "-":
-        print(f"The result is { num1 - num2}.")
-    case "*":
-        print(f"The result is { num1 * num2}.")
-    case "/":
-        if(num2 == 0):
+match operation:
+    case '+':
+        print(f"The result is {num1 + num2}.")
+    case '-':
+        print(f"The result is {num1 - num2}.")
+    case '*':
+        print(f"The result is {num1 * num2}.")
+    case '/':
+        if num2 == 0:
             print("Cannot divide by zero.")
         else:
-            print(f"The result is { num1 / num2}.")
+            print(f"The result is {num1 / num2}.")
     case _:
-        print("choose the correct operator")
+        print("Choose the correct operator.")
