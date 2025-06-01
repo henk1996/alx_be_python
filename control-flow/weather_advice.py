@@ -4,7 +4,7 @@
 #If the weather is “cold”, recommend: Make sure to wear a warm coat and a scarf.
 #Include an else statement that handles unexpected input by printing: Sorry, I don't have recommendations for this weather.
 
-user = input("What's the weather like today? (sunny/rainy/cold):")
+user = input("What's the weather like today? (sunny/rainy/cold): ")
 
 if(user == "sunny"):
     print("Wear a t-shirt and sunglasses.")
