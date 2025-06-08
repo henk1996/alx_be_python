@@ -6,13 +6,18 @@
 # returning a specific message or value that your main.py script can recognize and display appropriately.
 # Return the result of the arithmetic operation.
 
+
 def perform_operation(num1, num2, operation):
-    match operation:
-        case "add":
-            return num1 + num2
-        case "subtract":
-            return num1 - num2
-        case "multiply":
-            return num1 * num2
-        case "divide":
-            return num1 / num2 if num2 > 0 else "Can't Divid By Zero"
+    if operation == "add":
+        return num1 + num2
+    elif operation == "subtract":
+        return num1 - num2
+    elif operation == "multiply":
+        return num1 * num2
+    elif operation == "divide":
+           if num2 == 0:
+            return "Can't Divide By Zero"
+           else:
+            return num1 / num2
+    else:
+        return "Enter The Correct Operations"

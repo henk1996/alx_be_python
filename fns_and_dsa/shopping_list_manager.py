@@ -23,7 +23,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            shopping_list.append(input("Enter Item Name To Add To The List: "))
+            shopping_list.append(input("Enter the item to add: "))
             pass
         elif choice == '2':
             shopping_list.pop(input("Enter Item Name To Remove From The List: "))
