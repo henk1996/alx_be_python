@@ -16,15 +16,9 @@ def perform_operation(num1, num2, operation):
         return num1 * num2
     elif operation == "divide":
            if num2 == 0:
-            return "Can't Divide By Zero" 
-<<<<<<< HEAD
+            return "Can't Divide By Zero"
            else:
             return num1 / num2
     else:
         return "Enter The Correct Operations"
-=======
-        else:
-            return num1 / num2
-    else:
-        return "Enter The Correct Operations"
->>>>>>> 459a18e15502370adc30f99687a2272f4613ff06
+
