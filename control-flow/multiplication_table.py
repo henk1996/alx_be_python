@@ -27,7 +27,7 @@
 # 5 * 9 = 45
 # 5 * 10 = 50
 
-user = int(input("Enter a number to see its multiplication table: "))
+number = int(input("Enter a number to see its multiplication table: "))
 
-for number in range(1, 11):
-        print(f"{user} * {number} = {user * number}")
+for i in range(1, 11):
+        print(f"{number} * {i} = {number * i}")
