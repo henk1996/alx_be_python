@@ -5,7 +5,7 @@ def display_current_datetime():
     current_date = current_date.strftime("%Y-%m-%d %H:%M:%S")
     return current_date
 
-def future_date(user_date):
+def calculate_future_date(user_date):
     Futur_date = datetime.datetime.today()
     new_date = int(Futur_date.strftime("%d")) + user_date
     display_date = Futur_date.strftime(f"%Y-%m-{new_date}")
@@ -19,6 +19,11 @@ future_calculated_date = future_date(user_input)
 
 print(current_datetime)
 print(future_calculated_date)
+
+
+
+
+
 
 
 
