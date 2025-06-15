@@ -14,4 +14,8 @@ class BankAccount:
             return False
 
     def display_balance(self):
+<<<<<<< HEAD
         print(f"Current Balance: ${self.account_balance:.2f}")
+=======
+        print(f"Current Balance: ${self.account_balance:.2f}")
+>>>>>>> refs/remotes/origin/main
